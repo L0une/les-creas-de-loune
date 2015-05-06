@@ -1,0 +1,202 @@
+/*@import url(http://fonts.googleapis.com/css?family=Exo:600);*/
+@import url("http://fonts.googleapis.com/css?family=Syncopate");
+/*@font-face*/
+/*font-family 'Home Remedy'*/
+/*src url(HomeRem.ttf)*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: #fbfbfb;
+}
+body a {
+  text-decoration: none;
+}
+body main {
+  width: 980px;
+  margin: auto;
+}
+body main header {
+  position: absolute;
+  width: 980px;
+  margin: auto;
+  top: 20px;
+}
+body main > div,
+body main section div {
+  display: none;
+}
+body main section {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  width: 720px;
+  box-shadow: 0 0 4px #000;
+  background-color: #fff;
+  margin-left: 240px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+body main #accueil:target {
+  display: inline-block;
+}
+body main #kits:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #signatures:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #avatars:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #bann:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #bann:target img {
+  width: 700px;
+}
+body main #charteGraph:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #charteGraph:target img.pa {
+  width: 700px;
+}
+body main #sitesInt:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #credits:target {
+  display: inline-block;
+  text-align: center;
+}
+body main #partenariat:target {
+  display: inline-block;
+  text-align: center;
+}
+body main div > img {
+  margin: 0 5px 5px 5px;
+}
+body main section > a.bouton {
+  background-color: #e2e2e1;
+  color: #000;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
+body main section > a.bouton:hover {
+  color: #fff;
+  background-color: #ec1c56;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+body main p {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+body main .footer {
+  text-align: center;
+  font-size: 10px;
+}
+body main .contact {
+  text-align: center;
+  font-size: 16px;
+}
+body main h1 {
+  color: #ec1c56;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 1px;
+}
+body main h2,
+body main h3 {
+  color: #000;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-top: dotted #c6c6c6 1px;
+}
+body main h2.rose {
+  color: #ec1c56;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-top: dotted #7a7a7a 1px;
+}
+body main aside {
+  width: 160px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0 20px 20px 20px;
+  font-size: 12px;
+  box-shadow: 0 0 4px #000;
+  background-color: #fff;
+  position: fixed;
+  top: 150px;
+}
+body main nav > a.bouton {
+  background-color: #e2e2e1;
+  color: #000;
+  padding: 5px;
+  margin: -5px 0 -5px 0;
+  display: block;
+  text-align: center;
+}
+body main nav > a.boutonPart {
+  margin: -5px 0 -5px 0;
+  display: block;
+  text-align: center;
+}
+body main nav > a.bouton:hover {
+  color: #fff;
+  background-color: #ec1c56;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+body main nav > a.boutonPart:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+body main nav > a.active {
+  color: #fff;
+  background-color: #ec1c56;
+}
+body main nav > .menu {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 14px;
+  color: #ec1c56;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  bottom: 0;
+  position: fixed;
+}

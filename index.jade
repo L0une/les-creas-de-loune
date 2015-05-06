@@ -1,0 +1,398 @@
+doctype html
+html(lang="fr")
+    head
+        meta(charset='utf-8')
+        title Les créas de Loune
+        //-On met toutes les inclusions SAUF LE CHARSET après le title, car le title doit être le plus haut possible.
+        link(rel='stylesheet', href='base.css')
+        link(rel='icon', href='images/favicon.png')
+        meta(description="Site de graphime et de webdesign, présentant le travail de Lou Ballangé. Connue sous le pseudo de Loune, elle présente des kits pour forum, des avatars, des signatures ainsi que quelques réalisations web.")
+
+    body
+        main
+            header
+                a(href="index.html", title="Retour à l'index")
+                    img(src="images/bann.jpg")
+
+            aside
+                nav
+                    .menu Navigation
+                    a.bouton(href='#accueil', title='Accueil') Accueil
+                    br
+                    a.bouton(href='#kits', title='Kits') Kits
+                    br
+                    a.bouton(href='#avatars', title='Avatars') Avatars
+                    br
+                    a.bouton(href='#signatures', title='Signatures') Signatures
+                    br
+                    a.bouton(href='#bann', title='Bannières') Banni&egrave;res
+                    br
+                    a.bouton(href='#charteGraph', title='Chartes graphiques') Chartes graphiques
+                    br
+                    a.bouton(href='#sitesInt', title='Réalisations web') Réalisations web
+                    br
+                    a.bouton(href='#credits', title='Crédits') Contact / Cr&eacute;dits
+
+                    .menu Partenaires
+                    //a.boutonPart(target = '_blank' href='http://', title='EN COURS')
+                    //    img(src="images/boutonPart.jpg")
+                    //br
+                    //a.boutonPart(target = '_blank' href='http://', title='EN COURS')
+                    //    img(src="images/boutonPart.jpg")
+                    //br
+                    a.bouton(href='#partenariat', title='Partenaires') Fiches des partenaires
+
+            #accueil: section.accueil
+                h1 Soyez les bienvenues, chers visiteurs
+                p « Les créas de Loune » est un site regroupant le travail graphique que je fais depuis quelques années maintenant. Il présente des avatars, des kits, des signatures, des bannières mais également des chartes graphiques et les visuels de quelques sites Internet que j'ai confectionnés, sites tels que celui-ci.
+                p Étudiante en communication, j'ai débuté le graphisme sur Photofiltre Studio en 2011 durant ma première année de DUT en Information et Communication, après quelques essais de kits destinés à des forums RPG. Je suis passée en 2013 sur un autre logiciel, Photoshop CC, que j'apprends encore aujourd'hui à maîtriser. Graphiste sur un forum d'aide, je mets toutes mes compétences au service de mes commanditaires.
+                p Concernant la conception des sites Internet et des chartes graphiques, j'ai débuté ce travail durant les années 2014 et 2015. Loin d'être développeuse, je suis plus tournée vers la programmation des feuilles Stylus/CSS ainsi que le travail sur l'ergonomie, dans le but de proposer un habillage et un rendu correct pour l'utilisateur. Je suis en premier lieu graphiste et spécialisée en communication et ergonomie.
+                p Si vous souhaitez me contacter, vous le pouvez dans la section « Contact / Crédits », de même si vous souhaitez utiliser des créations présentées ici. Si vous souhaitez devenir partenaire, je vous invite à visiter la section « Fiches des partenaires » où toutes les conditions sont énoncées.
+                p Il ne me reste plus qu'à vous souhaiter une agréable visite.
+
+
+            #kits: section.kits
+                h1 Les kits
+                p Vous trouverez dans cette section des kits graphiques pour forum (RPG, de discussion...). Un kit graphique est un ensemble constitué d'un avatar et d'une signature, utilisé sur un forum (RPG, de discussion...). Il m'arrive parfois de faire un kit avec deux avatars et une signature, soit pour deux personnages ayant un lien soit pour un personnage mais avec deux versions de l'avatar.
+
+                a.bouton(href="", title='Brunhilde', onclick='return afficherDiv("Brun")') Brunhilde
+                a.bouton(href="", title='Garland', onclick='return afficherDiv("Garl")') Garland
+                a.bouton(href="", title='Grim et Illyna', onclick='return afficherDiv("GrimIlly")') Grim et Illyna
+                a.bouton(href="", title='Hamara', onclick='return afficherDiv("Hamara")') Hamara
+                a.bouton(href="", title='Kyo', onclick='return afficherDiv("Kyo")') Kyo
+                a.bouton(href="", title='Loune', onclick='return afficherDiv("Loune")') Loune
+                a.bouton(href="", title='Salenna et Améthrylde', onclick='return afficherDiv("SalAme")') Salenna et Améthrylde
+                a.bouton(href="", title='Wilfried', onclick='return afficherDiv("Wil")') Wilfried
+                a.bouton(href="", title='Créations non utilisées', onclick='return afficherDiv("creaNonUtilKits")') Créations non utilisées
+
+                div.img#Brun
+                    h2 Kit 1
+                    img(src="images/kits/Brunhilde/02.jpg", alt='Avatar Brunhilde par Lou Ballangé (kit graphique pour forum n°1)')
+                    img(src="images/kits/Brunhilde/01.jpg", alt='Avatar Brunhilde par Lou Ballangé (kit graphique pour forum n°1)')
+                    br
+                    img(src="images/kits/Brunhilde/signa.png", alt='Signature Brunhilde par Lou Ballangé (kit graphique pour forum n°1)')
+                    h2 Kit 2
+                    img(src="images/kits/Brunhilde/03.jpg", alt='Avatar Brunhilde par Lou Ballangé (kit graphique pour forum n°2)')
+                    br
+                    img.signa(src="images/kits/Brunhilde/signa03.jpg", alt='Signature Brunhilde par Lou Ballangé (kit graphique pour forum n°2)')
+                    h2 Kit 3
+                    img(src="images/kits/Brunhilde/04.jpg", alt='Avatar Brunhilde par Lou Ballangé (kit graphique pour forum n°3)')
+                    br
+                    img(src="images/kits/Brunhilde/signa04.jpg", alt='Signature Brunhilde par Lou Ballangé (kit graphique pour forum n°3)')
+
+                div.img#Garl
+                    img(src="images/kits/Garland/01.jpg", alt='Avatar Garland par Lou Ballangé (kit graphique pour forum)')
+                    img(src="images/kits/Garland/02.jpg", alt='Avatar Garland par Lou Ballangé (kit graphique pour forum)')
+                    br
+                    img(src="images/kits/Garland/signa.jpg", alt='Signature Garland par Lou Ballangé (kit graphique pour forum)')
+
+                div.img#GrimIlly
+                    h2 Kit 1
+                    img(src="images/kits/GrimIlly/illyna.jpg", alt='Avatar Illyna par Lou Ballangé (kit graphique pour forum n°1)')
+                    img(src="images/kits/GrimIlly/grim.jpg", alt='Avatar Grim par Lou Ballangé (kit graphique pour forum n°1)')
+                    br
+                    img(src="images/kits/GrimIlly/signa.png", alt='Signature Illyna et Grim par Lou Ballangé (kit graphique pour forum n°1)')
+                    h2 Kit 2
+                    img(src="images/kits/GrimIlly/illy02.png", alt='Avatar Illyna par Lou Ballangé (kit graphique pour forum n°2)')
+                    img(src="images/kits/GrimIlly/grim02.png", alt='Avatar Grim par Lou Ballangé (kit graphique pour forum n°2)')
+                    br
+                    img(src="images/kits/GrimIlly/signa02.png", alt='Signature Illyna et Grim par Lou Ballangé (kit graphique pour forum n°2)')
+                    h2 Kit 2
+                    img(src="images/kits/GrimIlly/illy03.jpg", alt='Avatar Illyna par Lou Ballangé (kit graphique pour forum n°3)')
+                    img(src="images/kits/GrimIlly/grim03.jpg", alt='Avatar Grim par Lou Ballangé (kit graphique pour forum n°3)')
+                    br
+                    img(src="images/kits/GrimIlly/signa03.png", alt='Signature Illyna et Grim par Lou Ballangé (kit graphique pour forum n°3)')
+
+                div.img#Hamara
+                    h2 Kit 1
+                    img(src="images/kits/Hamara/01.jpg", alt='Avatar Hamara par Lou Ballangé (kit graphique pour forum n°1)')
+                    br
+                    img(src="images/kits/Hamara/signa01.jpg", alt='Signature Hamara par Lou Ballangé (kit graphique pour forum n°1)')
+                    h2 Kit 2
+                    img(src="images/kits/Hamara/02.jpg", alt='Avatar Hamara par Lou Ballangé (kit graphique pour forum n°2)')
+                    br
+                    img(src="images/kits/Hamara/signa02.jpg", alt='Signature Hamara par Lou Ballangé (kit graphique pour forum n°2)')
+                    h2 Kit 3
+                    img(src="images/kits/Hamara/03.jpg", alt='Avatar Hamara par Lou Ballangé (kit graphique pour forum n°3)')
+                    br
+                    img(src="images/kits/Hamara/signa03.jpg", alt='Signature Hamara par Lou Ballangé (kit graphique pour forum n°3)')
+
+                div.img#Kyo
+                    img(src="images/kits/Kyo/avatar.jpg", alt='Avatar Kyo par Lou Ballangé (kit graphique pour forum)')
+                    br
+                    img(src="images/kits/Kyo/signa.jpg", alt='Signature Kyo par Lou Ballangé (kit graphique pour forum)')
+
+                div.img#Loune
+                    h2 Kit 1
+                    img(src="images/kits/Loune/01.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°1)')
+                    br
+                    img(src="images/kits/Loune/signa01.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°1)')
+                    h2 Kit 2
+                    img(src="images/kits/Loune/02.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°2)')
+                    br
+                    img(src="images/kits/Loune/signa02.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°2)')
+                    h2 Kit 3
+                    img(src="images/kits/Loune/04.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°3)')
+                    br
+                    img(src="images/kits/Loune/signa04.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°3)')
+                    h2 Kit 4
+                    img(src="images/kits/Loune/05.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°4)')
+                    br
+                    img(src="images/kits/Loune/signa05.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°4)')
+                    h2 Kit 5
+                    img(src="images/kits/Loune/07.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°5)')
+                    br
+                    img(src="images/kits/Loune/signa07.png", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°5)')
+                    h2 Kit 6
+                    img(src="images/kits/Loune/08.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°6)')
+                    br
+                    img(src="images/kits/Loune/signa08.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°6)')
+                    h2 Kit 7
+                    img(src="images/kits/Loune/09.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°7)')
+                    br
+                    img(src="images/kits/Loune/signa09.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°7)')
+                    h2 Kit 8
+                    img(src="images/kits/Loune/10.jpg", alt='Avatar Loune par Lou Ballangé (kit graphique pour forum n°8)')
+                    br
+                    img(src="images/kits/Loune/signa10.jpg", alt='Signature Loune par Lou Ballangé (kit graphique pour forum n°8)')
+
+                div.img#SalAme
+                    h2 Kit 1
+                    img(src="images/kits/SalennaAme/01.jpg", alt='Avatar Améthrylde par Lou Ballangé (kit graphique pour forum n°1)')
+                    img(src="images/kits/SalennaAme/02.jpg", alt='Avatar Salenna par Lou Ballangé (kit graphique pour forum n°1)')
+                    br
+                    img(src="images/kits/SalennaAme/signa01.jpg", alt='Signature Améthrylde et Salenna par Lou Ballangé (kit graphique pour forum n°1)')
+                    h2 Kit 2
+                    img(src="images/kits/SalennaAme/03.jpg", alt='Avatar Salenna par Lou Ballangé (kit graphique pour forum n°2)')
+                    br
+                    img.signa(src="images/kits/SalennaAme/signa03.jpg", alt='Signature Salenna par Lou Ballangé (kit graphique pour forum n°2)')
+
+                div.img#Wil
+                    img(src="images/kits/Wil/01.jpg", alt='Avatar Wilfried par Lou Ballangé (kit graphique pour forum)')
+                    img(src="images/kits/Wil/02.jpg", alt='Avatar Wilfried par Lou Ballangé (kit graphique pour forum)')
+                    br
+                    img(src="images/kits/Wil/signa01.jpg", alt='Signature Wilfried par Lou Ballangé (kit graphique pour forum)')
+
+                div.img#creaNonUtilKits
+                    h2.rose Créations non utlisées
+                    p Les créations non utilisées peuvent être commandées et modifiées, dans la mesure de mes possibilités. Merci de lire les conditions dans la section « Contact / Crédits ».
+                    p Section vide pour le moment.
+
+            #avatars: section.avatars
+                h1 Les avatars
+                p Vous trouverez dans cette section des avatars pour forum (RPG, de discussion...). Les dimensions sont assez diverses, généralement elles sont précisées dans le règlement de chaque forum. Je vous propose quatre des dimensions les plus courantes.
+
+                a.bouton(href='', title='170*320' onclick='return afficherDiv("vava170320")') Avatars 170*320
+                a.bouton(href='', title='200*320' onclick='return afficherDiv("vava200320")') Avatars 200*320
+                a.bouton(href='', title='200*360' onclick='return afficherDiv("vava200360")') Avatars 200*360
+                a.bouton(href='', title='200*400' onclick='return afficherDiv("vava200400")') Avatars 200*400
+                a.bouton(href='', title='Créations non utilisées' onclick='return afficherDiv("creaNonUtilAva")') Créations non utilisées
+
+                div.img#vava170320
+                    h2 Améthrylde
+                    img(src="images/avatars/170320/ame.jpg", alt='Avatar Améthrylde par Lou Ballangé (avatar pour forum)')
+                    h2 Carter
+                    img(src="images/avatars/170320/carter01.jpg", alt='Avatar Carter par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/170320/carter02.jpg", alt='Avatar Carter par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/170320/carter03.jpg", alt='Avatar Carter par Lou Ballangé (avatar pour forum)')
+                    h2 Loune
+                    img(src="images/avatars/170320/loune.jpg", alt='Avatar Loune par Lou Ballangé (avatar pour forum)')
+                    h2 Zilehad
+                    img(src="images/avatars/170320/zil01.jpg", alt='Avatar Zilehad par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/170320/zil02.jpg", alt='Avatar Zilehad par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/170320/zil03.png", alt='Avatar Zilehad par Lou Ballangé (avatar pour forum)')
+
+
+                div.img#vava200320
+                    p Section vide.
+
+                div.img#vava200360
+                    h2 Gretel
+                    img(src="images/avatars/200360/01.jpg", alt='Avatar Gretel par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200360/02.jpg", alt='Avatar Gretel par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200360/04.jpg", alt='Avatar Gretel par Lou Ballangé (avatar pour forum)')
+
+                div.img#vava200400
+                    h2 Lunara, Mello et Pride (cadeaux)
+                    img(src="images/avatars/200400/lunara.jpg", alt='Avatar Lunara par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200400/mello.jpg", alt='Avatar Mello par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200400/pride.jpg", alt='Avatar Pride par Lou Ballangé (avatar pour forum)')
+                    h2 Loune
+                    img(src="images/avatars/200400/loune.jpg", alt='Avatar Loune par Lou Ballangé (avatar pour forum)')
+                    h2 Nimiel
+                    img(src="images/avatars/200400/nimiel01.jpg", alt='Avatar Nimiel par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200400/nimiel02.jpg", alt='Avatar Nimiel par Lou Ballangé (avatar pour forum)')
+                    h2 Perséphone
+                    img(src="images/avatars/200400/persephone.jpg", alt='Avatar Perséphone par Lou Ballangé (avatar pour forum)')
+                    h2 Renji
+                    img(src="images/avatars/200400/renji.jpg", alt='Avatar Renji par Lou Ballangé (avatar pour forum)')
+                    h2 Valentine
+                    img(src="images/avatars/200400/valentine.jpg", alt='Valentine Gretel par Lou Ballangé (avatar pour forum)')
+                    h2 Olga
+                    img(src="images/avatars/200400/olga11.jpg", alt='Avatar Olga par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200400/olgaTrouble.jpg", alt='Avatar Olga par Lou Ballangé (avatar pour forum)')
+
+                div.img#creaNonUtilAva
+                    h2.rose Créations non utlisées
+                    p Les créations non utilisées peuvent être commandées et modifiées, dans la mesure de mes possibilités. Merci de lire les conditions dans la section « Contact / Crédits ».
+                    h3 Pikachu, 200*320
+                    img(src="images/avatars/200320/pikachu.jpg", alt='Avatar Pikachu par Lou Ballangé (avatar pour forum)')
+                    h3 Minecraft, 200*400
+                    img(src="images/avatars/200400/minecraft01.jpg", alt='Avatar Minecraft par Lou Ballangé (avatar pour forum)')
+                    img(src="images/avatars/200400/minecraft02.jpg", alt='Avatar Minecraft par Lou Ballangé (avatar pour forum)')
+
+            #signatures: section.signatures
+                h1 Les signatures
+                p Vous trouverez dans cette section des signatures pour forum (RPG, de discussion...). Les dimensions sont assez diverses, généralement elles sont précisées dans le règlement de chaque forum.
+
+                a.bouton(href='', title='Signatures' onclick='return afficherDiv("signasigna")') Signatures
+                a.bouton(href='', title='Créations non utilisées' onclick='return afficherDiv("creaNonUtilSigna")') Créations non utilisées
+
+                div.img#signasigna
+                    h2 Batty
+                    img(src="images/signatures/batty.png", alt='Signature Batty par Lou Ballangé (signature pour forum)')
+                    h2 Comics' Girls
+                    img(src="images/signatures/SOWTVF.png", alt="Signature Comics' Girls par Lou Ballangé (signature pour forum)")
+                    h2 Lunara
+                    img(src="images/signatures/lunaraCadeau.jpg", alt='Signature Lunara par Lou Ballangé (signature pour forum)')
+
+                div.img#creaNonUtilSigna
+                    h2.rose Créations non utlisées
+                    p Les créations non utilisées peuvent être commandées et modifiées, dans la mesure de mes possibilités. Merci de lire les conditions dans la section « Contact / Crédits ».
+                    p Section vide pour le moment.
+
+            #bann: section.bann
+                h1 Les bannières
+                p Vous trouverez dans cette section des bannières pour forum (RPG, de discussion...). Certaines font parties d'un design complet, dont les autres pièces ne sont pas affichées sur ce site. Les bannières ne sont pas à leur taille d'origine, je vous invite à cliquer dessus pour les ouvrir à la bonne taille.
+
+                a.bouton(href='', title='Bannières' onclick='return afficherDiv("bannieres")') Bannières
+                a.bouton(href='', title='Créations non utilisées' onclick='return afficherDiv("creaNonUtilBann")') Créations non utilisées
+
+                div.img#bannieres
+                    h2 Les créas de Loune
+                    a(href="images/bann/bann1.png", target="_blank", title="Les créas de Loune")
+                        img(src="images/bann/bann1.png", alt='Bannière Les créas de Loune par Lou Ballangé (bannière pour forum)')
+                    h2 Mythologie et ses amis
+                    a(href="images/bann/myth.png", target="_blank", title="Mythologie et ses amis")
+                        img(src="images/bann/myth.png", alt='Bannière Mythologie et ses amis par Lou Ballangé (bannière pour forum)')
+                    h2 Pension Thiercelieux
+                    a(href="images/bann/essai01.jpg", target="_blank", title="Pension Thiercelieux")
+                        img(src="images/bann/essai01.jpg", alt='Bannière Pension Thiercelieux par Lou Ballangé (bannière pour forum 1)')
+                    br
+                    a(href="images/bann/essai02.jpg", target="_blank", title="Pension Thiercelieux")
+                        img(src="images/bann/essai02.jpg", alt='Bannière Pension Thiercelieux par Lou Ballangé (bannière pour forum 2)')
+                    h2
+                    h4 Andaris
+                    a(href="images/bann/andaris.png", target="_blank", title="Andaris")
+                        img(src="images/bann/andaris.png", alt='Bannière Andaris par Lou Ballangé (bannière pour forum)')
+
+                div.img#creaNonUtilBann
+                    h2.rose Créations non utlisées
+                    p Les créations non utilisées peuvent être commandées et modifiées, dans la mesure de mes possibilités. Merci de lire les conditions dans la section « Crédits / Contact ».
+                    h3 Color the life
+                    a(href="images/bann/color.png", target="_blank", title="Color the life", alt='Bannière Color the life par Lou Ballangé (bannière pour forum)')
+                        img(src="images/bann/color.png")
+                    h3 Fantasy Rose
+                    a(href="images/bann/fantasyRose.jpg", target="_blank", title="Show Your Art", alt='Bannière Fantasy Rose par Lou Ballangé (bannière pour forum)')
+                        img(src="images/bann/fantasyRose.jpg")
+                    h3 Fantasy Bleue
+                    a(href="images/bann/fantasyBleue.jpg", target="_blank", title="Show Your Art", alt='Bannière Fantasy Bleue par Lou Ballangé (bannière pour forum)')
+                        img(src="images/bann/fantasyBleue.jpg")
+                    h3 Magical Girl
+                    a(href="images/bann/magical.jpg", target="_blank", title="Magical Girl", alt='Bannière Magical Girl par Lou Ballangé (bannière pour forum)')
+                        img(src="images/bann/magical.jpg")
+                    h3 Minecraft
+                    a(href="images/bann/minecraft.jpg", target="_blank", title="Minecraft", alt='Bannière Minecraft par Lou Ballangé (bannière pour forum)')
+                        img(src="images/bann/minecraft.jpg")
+
+            #charteGraph: section.charteGraph
+                h1 Les chartes graphiques
+                p Vous trouverez dans cette section des chartes graphiques que j'ai réalisées. Les chartes graphiques que je propose contiennent généralement un ou plusieurs logos, une capture d'écran de la page d'accueil afin de présenter l'agencement du site et une mascotte, déclinée en plusieurs couleurs, si le site s'y prête.
+
+                a.bouton(href='', title='Conte-moi une histoire' onclick='return afficherDiv("conteMoi")') Conte-moi une histoire
+
+                div.img#conteMoi
+                    h2.rose Conte-moi une histoire
+                    p Cette charte graphique a été réalisée dans le cadre de ma troisième année de licence en Sciences du langage, de l'information et de la communication. Le but était de créer un objet pédagogique interactif. Le sujet était le suivant : l'écriture d'un conte merveilleux. Cette charte graphique comprend la création de la mascotte et des logos déclinés sous trois couleurs, ainsi que les icônes de la navigation.
+                    h3 Ernest, la mascotte
+                    p Ernest est le petit personnage qui va accompagner l'utilisateur durant toute sa navigation. Je l'ai décliné en trois couleurs et avec plusieurs expressions.
+                    img(src="images/chartes/opi/vert.jpg", alt='Mascotte Ernest par Lou Ballangé (mascotte verte)')
+                    img(src="images/chartes/opi/jaune.jpg", alt='Mascotte Ernest par Lou Ballangé (mascotte jaune)')
+                    img(src="images/chartes/opi/rose.jpg", alt='Mascotte Ernest par Lou Ballangé (mascotte rose)')
+                    img(src="images/chartes/opi/vue01.jpg", alt='Mascotte Ernest par Lou Ballangé (vues face et dos)')
+                    img(src="images/chartes/opi/vue02.jpg", alt='Mascotte Ernest par Lou Ballangé (vues content et interrogateur)')
+                    img(src="images/chartes/opi/vue03.jpg", alt='Mascotte Ernest par Lou Ballangé (vues peureux)')
+                    h3 Les logos
+                    p Les logos ont également été déclinés sous trois couleurs.
+                    img(src="images/chartes/opi/logoVert.png", alt='Logo par Lou Ballangé (logo vert)')
+                    img(src="images/chartes/opi/logoJaune.png", alt='Logo par Lou Ballangé (logo jaune)')
+                    img(src="images/chartes/opi/logoRose.png", alt='Logo par Lou Ballangé (logo rose)')
+                    h3 Screen de la page d'accueil
+                    p Voici une capture d'écran de la page d'accueil, afin de présenter l'organisation de l'application.
+                    a(href="images/chartes/opi/pa.jpg", target="_blank", title="Conte-moi une histoire")
+                        img.pa(src="images/chartes/opi/pa.jpg", alt='Page "Conte-moi une hitoire" par Lou Ballangé')
+
+
+            #sitesInt: section.sitesInt
+                h1 Les réalisations web
+                p Vous trouverez dans cette section les aperçus des quelques sites que j'ai réalisés. Ils sont tous sous licence CC BY-NC-ND 4.0. J'en ai réalisé le codage et le webdesign.
+
+                a.bouton(href='', title="Carter et Saly : l'art de la page d'accueil" onclick='return afficherDiv("apa")') Carter et Saly : l'art de la page d'accueil
+                a.bouton(href='', title='Les astuces du platypus' onclick='return afficherDiv("ladp")') Les astuces du platypus
+                a.bouton(href='', title='Apprends-moi les métadonnées' onclick='return afficherDiv("amlm")') Apprends-moi les métadonnées
+
+                div.img#apa
+                    h2.rose L'art de la page d'accueil
+                    a(href="http://l0une.github.io/art-page-accueil/", target="_blank", title="L'art de la page d'accueil")
+                        img(src="images/logocarter.png", alt="Logo de L'art de la page d'accueil par Lou Ballangé")
+                    p « L'art de la page d'accueil » est un site crée en 2014. Il présente toutes les astuces bonnes à connaître dans l'élaboration de la page d'accueil d'un site Internet. Ces astuces sont basées sur les règles rédigées par Jakob Nielsen et Marie Tahir, dans leur ouvrage « L'art de la page d'accueil : 50 sites web passés au crible ».
+
+                div.img#ladp
+                    h2.rose Les astuces du platypus
+                    a(href="http://l0une.github.io/ergonomie-mobile/", target="_blank", title="Les astuces du platypus")
+                        img(src="images/logolucius.png", alt="Logo de Les astuces du platypus par Lou Ballangé")
+                    p « Les astuces du platypus » est un site crée en 2014. Suivez Lucius le petit ornithorynque dans une analyse des bonnes habitudes à connaître lors de la conception d'un site Internet responsive ou d'une application mobile. Les crtières de Jakob Nielsen et Marie Tahir en sont la base, de même que ceux de l'AFNOR (Association française de normalisation) et de Amélie Boucher, une ergonome de renom.
+
+                div.img#amlm
+                    h2.rose Apprends-moi les métadonnées
+                    a(href="http://l0une.github.io/metadonnees/", target="_blank", title="Apprends-moi les métadonnées")
+                        img(src="images/logometa.png", alt="Logo de Apprends-moi les métadonnées par Lou Ballangé")
+                    p « Apprends-moi les métadonnées » est un site crée en 2014. Il s'agit d'une introduction aux métadonnées. Le site comprend quelques explications sur le sujet ainsi que deux fichiers PDF a télécharger, plus complets.
+
+            #credits: section.credits
+                h1 Me contacter / Les crédits
+                h2.rose Me contacter
+                p Pour me contacter, je vous invite à cliquer sur le lien suivant, ce qui vous permettra de m'envoyer un e-mail. Je répondrais le plus rapidement possible à toute demande :
+                p.contact: a(href='mailto:lou.ballange@gmail.com', title='Me contacter') Me contacter
+                p Merci de bien préciser l'objet de votre e-mail. Pour toute relance sur une commande, merci de me laisser au moins une semaine de travail (généralement je vous enverrais les premiers essais moins d'une semaine après la commande). En cas de retard, je vous préviendrais rapidement.
+
+                h2.rose Les crédits
+                p J'ai dévisé les crédits en deux parties : les crédits concernant le site (code et webdesign) et des conditions spécifiques pour les créations graphiques. Merci de bien les respecter.
+                h3 Les crédits du site
+                p Site mis en place par Lou Ballangé, à Bordeaux / Bègles, durant l'année 2015. Merci à Millicent Billette, programmeur de l'entreprise 1twitif, pour son aide précieuse.
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+                p Le site Internet est intégralement sous licence Creative Commons BY-NC-ND 4.0.
+                h3 Les crédits des créations graphiques
+                p Tous les droits de ce qui se trouvent sur ce site sont réservés à mon utilisation, personnelle comme professionnelle. Toutes les créations sont marquées de ma signature et sont ainsi ma propriété intellectuelle. Toutes les créations hormis celles estampillées « Créations non utilisées » sont déjà prises par des internautes.
+                p Si vous souhaitez néanmoins utiliser mes créations dans le cadre personnel, c'est possible en me contactant et en me demandant, ainsi qu'en précisant soit mes prénoms et noms soit mon pseudonyme sur votre plateforme. J'accepte les commandes, soit de modification des créations non utilisées soit de créations nouvelles. Je mets généralement un à trois jours pour vous présenter le premier essai d'une commande nouvelle.
+                p Dans le cadre d'une utilisation professionnelle et lucrative, merci de me contacter afin d'établir des conditions d'utilisation ainsi qu'un échange (si l'utilisation est lucrative pour vous, le retour doit être à la hauteur pour moi).
+
+            #partenariat: section.partenariat
+                h1 Les partenaires
+                p Vous trouverez dans cette section toutes les fiches des partenaires ainsi que les conditions pour devenir partenaires.
+                p J'accepte toutes les demandes de partenariat, tant que le site me plait et qu'il est en rapport avec le graphisme et la programmation. Forums d'aide, collègues graphismes ou programmeurs, forums RPG peuvent entrer dans cette catégorie. Les sites de vente seront soumis à une réflexion plus apporfondie. Je me réserve le droit de refuser une demande si elle ne me plait pas où si les conditions ci-dessous ne sont pas respectées !
+                p Les conditions sont simples : sur mon site, un logo du partenaire est présent dans la barre de navigation (cela peut-être optionnel), ainsi qu'une fiche de présentation dans cette section. Quelque soit la décision quant à la présence du logo dans ma navigation, je demande la même visibilité sur le site partenaire. L'échange doit être équitable. De plus, je n'autorise pas le partenaire à utiliser mon image ou mes créations sans mon autorisation, sous peine de rompre le partenariat ou d'aller même jusqu'à des poursuites.
+                p Si les conditions sont respectées, c'est avec plaisir que j'accueille toute plateforme intéressée par mon travail et un échange de bon procédé. Vous trouverez ci-dessous les fiches des partenaires.
+
+                a.bouton(href='', title='1twitif' onclick='return afficherDiv("1twitif")') 1twitif
+
+                div.img#1twitif
+                    h2.rose 1twitif
+                    a(href="www.1twitif.fr", target="_blank", title="1twitif")
+                        img(src="images/partenaires/1twitifBanner.png", alt='Logo et site : 1twitif')
+                    p 1twitif est le site de Millicent Billette de Villemeur, développeur web spécialisé javascript. Son approche souple lui permet d'être à l'écoute de vos besoins et de ceux de vos clients en optimisant l'expérience utilisateur, tant sur le plan ergonomique que technique.
+
+        footer
+            p.footer &copy; Lou Ballangé - Bordeaux - 2015
+
+        script(src='navigation.js')
