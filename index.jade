@@ -350,19 +350,28 @@ html(lang="fr")
                 h1 Me contacter / Les crédits
                 h2.rose Me contacter
                 p Pour me contacter, je vous invite à cliquer sur le lien suivant, ce qui vous permettra de m'envoyer un e-mail. Je répondrais le plus rapidement possible à toute demande :
-                p.contact: a(href='mailto:lou.ballange@gmail.com', title='Me contacter') Me contacter
+                p.contact
+                    a(href='mailto:lou.ballange@gmail.com', title='Me contacter') lou.ballange@gmail.com
                 p Merci de bien préciser l'objet de votre e-mail. Pour toute relance sur une commande, merci de me laisser au moins une semaine de travail (généralement je vous enverrais les premiers essais moins d'une semaine après la commande). En cas de retard, je vous préviendrais rapidement.
 
                 h2.rose Les crédits
                 p J'ai divisé les crédits en deux parties : les crédits concernant le site (code et webdesign) et des conditions spécifiques pour les créations graphiques. Merci de bien les respecter.
-                h3 Les crédits du site
-                p Site mis en place par Lou Ballangé, à Bordeaux / Bègles, durant l'année 2015. Merci à Millicent Billette, programmeur de l'entreprise 1twitif, pour son aide précieuse.
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
-                p Le site Internet est intégralement sous licence Creative Commons BY-NC-ND 4.0.
-                h3 Les crédits des créations graphiques
-                p Tous les droits de ce qui se trouvent sur ce site sont réservés à mon utilisation, personnelle comme professionnelle. Toutes les créations sont marquées de ma signature et sont ainsi ma propriété intellectuelle. Toutes les créations hormis celles estampillées « Créations non utilisées » sont déjà prises par des internautes.
-                p Si vous souhaitez néanmoins utiliser mes créations dans le cadre personnel, c'est possible en me contactant et en me demandant, ainsi qu'en précisant soit mes prénoms et noms soit mon pseudonyme sur votre plateforme. J'accepte les commandes, soit de modification des créations non utilisées soit de créations nouvelles. Je mets généralement un à trois jours pour vous présenter le premier essai d'une commande nouvelle.
-                p Dans le cadre d'une utilisation professionnelle et lucrative, merci de me contacter afin d'établir des conditions d'utilisation ainsi qu'un échange (si l'utilisation est lucrative pour vous, le retour doit être à la hauteur pour moi).
+
+
+                a.bouton(href='', title='Les crédits du site' onclick='return afficherDiv("credSite")') Les crédits du site
+                a.bouton(href='', title='Les crédits des créations graphiques' onclick='return afficherDiv("credGraph")') Les crédits des créations graphiques
+
+                div.img#credSite
+                    h3 Les crédits du site
+                    p Site mis en place par Lou Ballangé, à Bordeaux / Bègles, durant l'année 2015. Merci à Millicent Billette, programmeur de l'entreprise 1twitif, pour son aide précieuse.
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+                    p Le site Internet est intégralement sous licence Creative Commons BY-NC-ND 4.0.
+
+                div.img#credGraph
+                    h3 Les crédits des créations graphiques
+                    p Tous les droits de ce qui se trouvent sur ce site sont réservés à mon utilisation, personnelle comme professionnelle. Toutes les créations sont marquées de ma signature et sont ainsi ma propriété intellectuelle. Toutes les créations hormis celles estampillées « Créations non utilisées » sont déjà prises par des internautes.
+                    p Si vous souhaitez néanmoins utiliser mes créations dans le cadre personnel, c'est possible en me contactant et en me demandant, ainsi qu'en précisant soit mes prénoms et noms soit mon pseudonyme sur votre plateforme. J'accepte les commandes, soit de modification des créations non utilisées soit de créations nouvelles. Je mets généralement un à trois jours pour vous présenter le premier essai d'une commande nouvelle.
+                    p Dans le cadre d'une utilisation professionnelle et lucrative, merci de me contacter afin d'établir des conditions d'utilisation ainsi qu'un échange (si l'utilisation est lucrative pour vous, le retour doit être à la hauteur pour moi).
 
             #partenariat: section.partenariat
                 h1 Les partenaires
