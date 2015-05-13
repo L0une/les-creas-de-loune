@@ -20,12 +20,6 @@ function pageActive() {
     }
   }, 0);
 }
-declencheurs = document.querySelectorAll('a');
-for (key = 0; key < declencheurs.length; key++) {
-  elem = declencheurs[key];
-  elem.addEventListener('mouseup', pageActive);
-}
-pageActive();
 
 /*Fonction qui permet d'afficher une div en-dessous de la div principale.
 * En gros, elle permet aux kits de s'afficher une fois que l'on clique sur le bouton correspndant, sans ouvrir
@@ -45,14 +39,9 @@ function afficherDiv(cible){
 }
 
 /*CHANGEMENT TITRE*/
-var menuLink = document.querySelectorAll('nav a.bouton');
-for (var key = 0; key < menuLink.length; key++) {
-  var elem = menuLink[key];
-  elem.addEventListener("click", changeTitre, false);
+window.addEventListener("hashchange", changeTitre, false);
+function changeTitre() {
+    document.title = document.querySelector('nav a.bouton[href="'+window.location.hash+'"]').innerText + " | Les créas de Loune";
+    pageActive();
 }
-function changeTitre(evenement) {
-  document.title = evenement.target.innerText + " | Les créas de Loune";
-}
-
-var pageActuelle = document.querySelector('nav a.bouton[href="'+window.location.hash+'"]').innerText;
-changeTitre({target:{innerText:pageActuelle}});
+changeTitre();
