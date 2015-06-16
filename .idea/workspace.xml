@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b23cdc3-2d8b-4be7-96cf-14e076b7372e" name="Default" comment="Nouveau design">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Single/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0101.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/0101.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/0101.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/0102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/0102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0103.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/0301.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Brunhilde/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/1twitif.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/ame.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/astier.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/back.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banniere.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bann/billard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/epicode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/hephaistos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/jiji.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/leona.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/170320/loune4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/louneRenard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/nerith.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/presentation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/saintSeiya.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Single/signa01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/signa01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/signa01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/signa01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/signa03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Brunhilde/signa05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/vala.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/vala2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bann/ville.jpg" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\ashling.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\olga11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\olgaTrouble.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\persephone.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\renji.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\valentine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\bann.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\bann.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\feuilleType.ai" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\iconeVa.ai" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\kits\Mello\01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\kits\Mello\signa01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\partenaires\1twitifBanner.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.css" afterPath="$PROJECT_DIR$/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.styl" afterPath="$PROJECT_DIR$/base.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation.js" afterPath="$PROJECT_DIR$/navigation.js" />
+    <list default="true" id="8b23cdc3-2d8b-4be7-96cf-14e076b7372e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolio.iws" />
@@ -89,8 +30,8 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44590163" vertical-offset="663" max-vertical-offset="8636">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.7491803" vertical-offset="5629" max-vertical-offset="8687">
+              <caret line="358" column="113" selection-start-line="358" selection-start-column="113" selection-end-line="358" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -200,6 +141,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -229,9 +188,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -239,6 +195,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -338,33 +297,45 @@
       <option name="project" value="LOCAL" />
       <updated>1431514228420</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Mise en ligne avec le nouveau design.">
+      <created>1434450917830</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1434450917830</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Rajout de la bannière &quot;Astier&quot;.">
+      <created>1434455517254</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1434455517254</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14493865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14493865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -395,7 +366,9 @@
     <MESSAGE value="Modification &quot;Kit 4&quot;." />
     <MESSAGE value="&quot;Kit 4&quot;." />
     <MESSAGE value="MOdification des crédits.&#10;Modification du lien de contact." />
-    <option name="LAST_COMMIT_MESSAGE" value="MOdification des crédits.&#10;Modification du lien de contact." />
+    <MESSAGE value="Mise en ligne avec le nouveau design." />
+    <MESSAGE value="Rajout de la bannière &quot;Astier&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rajout de la bannière &quot;Astier&quot;." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,14 +765,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44590163" vertical-offset="663" max-vertical-offset="8636">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.7491803" vertical-offset="5629" max-vertical-offset="8687">
+          <caret line="358" column="113" selection-start-line="358" selection-start-column="113" selection-end-line="358" selection-end-column="113" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
