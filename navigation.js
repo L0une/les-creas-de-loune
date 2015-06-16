@@ -17,6 +17,8 @@ function pageActive() {
     for (key = 0; key < liensAActiver.length; key++) {
       elem = liensAActiver[key];
       elem.classList.add('active');
+      /*elem.click(); > simule un clique et déclenche le :target du CSS.*/
+      elem.click();
     }
   }, 0);
 }

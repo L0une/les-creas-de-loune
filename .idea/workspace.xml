@@ -1,8 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b23cdc3-2d8b-4be7-96cf-14e076b7372e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
+    <list default="true" id="8b23cdc3-2d8b-4be7-96cf-14e076b7372e" name="Default" comment="Nouveau design">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Single/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0101.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/0101.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/0101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/0102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/0102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/0103.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/0301.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Brunhilde/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/1twitif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/ame.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/astier.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banniere.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bann/billard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partenaires/epicode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/hephaistos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/jiji.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/leona.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/170320/loune4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/louneRenard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/nerith.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/presentation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200320/pru03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/signatures/saintSeiya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Single/signa01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Leona/signa01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Mugen/signa01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Tia/signa01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Loune/signa03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kits/Brunhilde/signa05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/vala.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatars/200400/vala2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bann/ville.jpg" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\ashling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\olga11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\olgaTrouble.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\persephone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\renji.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\avatars\200400\valentine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\bann.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\bann.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\feuilleType.ai" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\iconeVa.ai" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\kits\Mello\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\kits\Mello\signa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Loune\WebstormProjects\portfolio\images\partenaires\1twitifBanner.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.css" afterPath="$PROJECT_DIR$/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.styl" afterPath="$PROJECT_DIR$/base.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation.js" afterPath="$PROJECT_DIR$/navigation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolio.iws" />
@@ -31,8 +89,8 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6377049" vertical-offset="4201" max-vertical-offset="6902">
-              <caret line="270" column="105" selection-start-line="270" selection-start-column="105" selection-end-line="270" selection-end-column="105" />
+            <state vertical-scroll-proportion="0.44590163" vertical-offset="663" max-vertical-offset="8636">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -41,8 +99,8 @@
       <file leaf-file-name="base.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="831" max-vertical-offset="3213">
-              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="4930">
+              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -51,8 +109,8 @@
       <file leaf-file-name="navigation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1071">
-              <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="918">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -128,6 +186,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -157,6 +229,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -164,9 +239,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -230,7 +302,43 @@
       <option name="project" value="LOCAL" />
       <updated>1431497376767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Nouveau fond, optimisé.">
+      <created>1431505712575</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1431505712575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajout image PA, correction JS (titres onglets).">
+      <created>1431508747981</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1431508747981</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Retrait de 4 kits Loune.">
+      <created>1431512413555</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1431512413555</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modification &quot;Kit 4&quot;.">
+      <created>1431512459884</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1431512459884</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;Kit 4&quot;.">
+      <created>1431512506943</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1431512506943</updated>
+    </task>
+    <task id="LOCAL-00014" summary="MOdification des crédits.&#10;Modification du lien de contact.">
+      <created>1431514228420</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1431514228420</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -243,7 +351,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14493865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14493865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -281,7 +389,13 @@
     <MESSAGE value="Correction d'une faute dans les crédits.&#10;Pourquoi pas faire une autre mise en page pour les crédits, en cours de réflexion." />
     <MESSAGE value="Rajout de la section &quot;Grands formats&quot; dans les signatures." />
     <MESSAGE value="Modification des alt des grands formats." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification des alt des grands formats." />
+    <MESSAGE value="Nouveau fond, optimisé." />
+    <MESSAGE value="Ajout image PA, correction JS (titres onglets)." />
+    <MESSAGE value="Retrait de 4 kits Loune." />
+    <MESSAGE value="Modification &quot;Kit 4&quot;." />
+    <MESSAGE value="&quot;Kit 4&quot;." />
+    <MESSAGE value="MOdification des crédits.&#10;Modification du lien de contact." />
+    <option name="LAST_COMMIT_MESSAGE" value="MOdification des crédits.&#10;Modification du lien de contact." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,14 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1071">
-          <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -664,31 +770,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/banniere.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="918">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="831" max-vertical-offset="3213">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="4930">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6377049" vertical-offset="4201" max-vertical-offset="6902">
-          <caret line="270" column="105" selection-start-line="270" selection-start-column="105" selection-end-line="270" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44590163" vertical-offset="663" max-vertical-offset="8636">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

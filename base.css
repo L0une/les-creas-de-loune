@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  background-image: url("images/background.jpg");
+  background-image: url("images/back.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -18,6 +18,24 @@ body a {
 body main {
   width: 980px;
   margin: auto;
+/*TOUT CE QUI TOUCHE AUX "SECTIONS", DONC AUX DIFFRENTES PAGES*/
+/*Dès qu'une page est ajoutée, il faut la rajouter ici aussi en "inline-block"*/
+/*Metre "text-align center" seulement quand on a des images et des boutons !*/
+/*TOUT CE QUI TOUCHE AUX "IMG"*/
+/*TOUT CE QUI TOUCHE AUX "DIV"*/
+/*TOUT CE QUI TOUCHE AUX "P"*/
+/*TOUS LES TITRES*/
+/*ASIDE*/
+/*TOUT CE QUI TOUCHE A LA NAV*/
+/*Pour le "nav > .menu", il suffit de mettre un titre dans le fichier jade en ".menu" et de retirer le padding de 40 sur l'aside*/
+/*nav > .menu
+      margin-top 20px
+      margin-bottom 15px
+      font-family 'Syncopate',  sans-serif
+      font-size 14px
+      color #ec1c56
+      font-weight bold
+      text-align center*/
 }
 body main header {
   position: absolute;
@@ -34,7 +52,7 @@ body main section {
   font-family: Arial, sans-serif;
   font-size: 12px;
   width: 720px;
-  box-shadow: 0 0 4px #000;
+  box-shadow: 0 0 10px #808080;
   background-color: rgba(255,255,255,0.9);
   margin-left: 240px;
   margin-top: 150px;
@@ -42,6 +60,9 @@ body main section {
   padding: 10px;
 }
 body main #accueil:target {
+  display: inline-block;
+}
+body main #presentation:target {
   display: inline-block;
 }
 body main #kits:target {
@@ -82,8 +103,56 @@ body main #partenariat:target {
   display: inline-block;
   text-align: center;
 }
-body main div > img {
+body main .divPresa {
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  padding: 10px;
   margin: 0 5px 5px 5px;
+  background: rgba(0,0,0,0.04);
+  vertical-align: top;
+}
+body main .divActu {
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  padding: 10px;
+  margin: 0 5px 5px 5px;
+  background: rgba(0,0,0,0.04);
+}
+body main .scroll {
+  display: block;
+  width: 330px;
+  height: 260px;
+  overflow: auto;
+}
+body main img {
+  margin: 0 5px 5px 5px;
+}
+body main img.imgAccueil {
+  float: left;
+  margin: 10px;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+body main .imgActu {
+  margin: 10px;
+  text-align: center;
+}
+body main div > a.boutonPres {
+  background-color: #d1d1d0;
+  color: #000;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+body main div > a.boutonPres:hover {
+  color: #fff;
+  background-color: #ec1c56;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 body main section > a.bouton {
   background-color: #d1d1d0;
@@ -100,17 +169,17 @@ body main section > a.bouton:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
-body main .imgAccueil {
-  float: left;
-  margin: 10px;
-  margin-right: 20px;
-  margin-top: 4px;
+body main a.social {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
 }
 body main p {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
   text-align: justify;
+  font-size: 12px;
 }
 body main .footer {
   text-align: center;
@@ -132,12 +201,33 @@ body main .contact a:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
+body main .pAccueil {
+  text-align: center;
+}
+body main .date {
+  font-size: 11px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+body main .actu {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+body main .actuBis {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body main .actuBisFin {
+  margin-bottom: -5px;
+  padding-bottom: 15px;
+  border-bottom: dotted #a2a2a2 1px;
+}
 body main h1 {
   color: #ec1c56;
   font-family: 'Syncopate', sans-serif;
   font-size: 25px;
   text-align: center;
-  margin: 10px;
+  margin: 10px 0 20px 0;
   padding-bottom: 1px;
 }
 body main h2,
@@ -154,27 +244,42 @@ body main h3 {
 }
 body main h2.rose {
   color: #ec1c56;
-  font-family: 'Syncopate', sans-serif;
   font-size: 14px;
-  text-align: center;
   margin-bottom: -10px;
   margin-top: 20px;
   padding-bottom: 30px;
   padding-top: 20px;
   border-top: dotted #7a7a7a 1px;
 }
+body main h2.titreActu {
+  color: #ec1c56;
+  font-size: 14px;
+  margin-bottom: -10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: none;
+  border-bottom: dotted #7a7a7a 1px;
+}
+body main h3.news {
+  color: #000;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-top: none;
+}
 body main aside {
   width: 160px;
   display: inline-block;
-  vertical-align: top;
-  margin-left: 0;
-  margin-top: 0;
-  padding: 0 20px 20px 20px;
-  font-size: 12px;
-  box-shadow: 0 0 4px #000;
-/*background-color white*/
-  position: fixed;
   top: 150px;
+/*vertical-align top
+      margin-left 0
+      margin-top 0*/
+  padding: 40px 20px 30px 20px;
+  font-size: 12px;
+  box-shadow: 0 0 10px #808080;
+  position: fixed;
   background-color: rgba(255,255,255,0.9);
 }
 body main nav > a.bouton {
@@ -204,15 +309,7 @@ body main nav > a.active {
   color: #fff;
   background-color: #ec1c56;
 }
-body main nav > .menu {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  text-align: center;
-  font-family: 'Syncopate', sans-serif;
-  font-size: 14px;
-  color: #ec1c56;
-  font-weight: bold;
-}
+/*FOOTER*/
 footer {
   width: 100%;
   background: rgba(0,0,0,0.8);

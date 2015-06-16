@@ -8,7 +8,7 @@ body
   margin 0
   padding 0
   font-family Arial
-  background-image url('images/background.jpg')
+  background-image url('images/back.jpg')
   background-repeat no-repeat
   background-attachment fixed
   background-size 100%
@@ -26,6 +26,9 @@ body
       margin auto
       top 20px
 
+    /*TOUT CE QUI TOUCHE AUX "SECTIONS", DONC AUX DIFFRENTES PAGES*/
+    /*Dès qu'une page est ajoutée, il faut la rajouter ici aussi en "inline-block"*/
+    /*Metre "text-align center" seulement quand on a des images et des boutons !*/
     > div, section div
       display none
     section
@@ -33,13 +36,15 @@ body
       font-family Arial, sans-serif
       font-size 12px
       width 720px
-      box-shadow 0 0 4px black
+      box-shadow 0 0 10px grey
       background-color rgba(255, 255, 255, 0.9)
       margin-left 240px
       margin-top 150px
       margin-bottom 40px
       padding 10px
     #accueil:target
+      display inline-block
+    #presentation:target
       display inline-block
     #kits:target
       display inline-block
@@ -69,9 +74,53 @@ body
     #partenariat:target
       display inline-block
       text-align center
-
-    div > img
+    .divPresa
+      display inline-block
+      width 330px
+      height 300px
+      padding 10px
       margin 0 5px 5px 5px
+      background rgba(0,0,0,.04)
+      vertical-align top
+    .divActu
+      display inline-block
+      width 330px
+      height 300px
+      padding 10px
+      margin 0 5px 5px 5px
+      background rgba(0,0,0,.04)
+    .scroll
+      display block
+      width 330px
+      height 260px
+      overflow auto
+
+    /*TOUT CE QUI TOUCHE AUX "IMG"*/
+    img
+      margin 0 5px 5px 5px
+    img.imgAccueil
+      float left
+      margin 10px
+      margin-right 20px
+      margin-top 4px
+    .imgActu
+      margin 10px
+      text-align center
+
+    /*TOUT CE QUI TOUCHE AUX "DIV"*/
+    div > a.boutonPres
+      background-color #d1d1d0
+      color black
+      padding 5px
+      margin 5px
+      margin-bottom 20px
+      display block
+      text-align center
+    div > a.boutonPres:hover
+      color white
+      background-color #ec1c56
+      transform scale(1.1)
+      transition all 0.5s ease
     section > a.bouton
       background-color #d1d1d0
       color black
@@ -85,18 +134,18 @@ body
       background-color #ec1c56
       transform scale(1.1)
       transition all 0.5s ease
+    a.social
+      text-align center
+      display block
+      margin-top 20px
 
-    .imgAccueil
-      float left
-      margin 10px
-      margin-right 20px
-      margin-top 4px
-
+    /*TOUT CE QUI TOUCHE AUX "P"*/
     p
       margin-left 10px
       margin-right 10px
       margin-bottom 20px
       text-align justify
+      font-size 12px
     .footer
       text-align center
       font-size 10px
@@ -114,14 +163,30 @@ body
       background-color #ec1c56
       transform scale(1.1)
       transition all 0.5s ease
+    .pAccueil
+      text-align center
+    .date
+      font-size 11px
+      color grey
+      margin-bottom 5px
+    .actu
+      margin-top 30px
+      margin-bottom 10px
+    .actuBis
+      margin-top 10px
+      margin-bottom 10px
+    .actuBisFin
+      margin-bottom -5px
+      padding-bottom 15px
+      border-bottom dotted #a2a2a2 1px
 
-
+    /*TOUS LES TITRES*/
     h1
       color #ec1c56
       font-family 'Syncopate',  sans-serif
       font-size 25px
       text-align center
-      margin 10px
+      margin 10px 0 20px 0
       padding-bottom 1px
 
     h2, h3
@@ -137,29 +202,55 @@ body
 
     h2.rose
       color #ec1c56
-      font-family 'Syncopate',  sans-serif
       font-size 14px
-      text-align center
       margin-bottom -10px
       margin-top 20px
       padding-bottom 30px
       padding-top 20px
       border-top dotted #7a7a7a 1px
 
+    h2.titreActu
+      color #ec1c56
+      font-size 14px
+      margin-bottom -10px
+      margin-top 10px
+      padding-bottom 10px
+      padding-top 10px
+      border-top none
+      border-bottom dotted #7a7a7a 1px
+
+    h3.news
+      color black
+      font-size 12px
+      text-align left
+      margin-top 10px
+      padding-bottom 10px
+      border-top none
+
+    /*ASIDE*/
     aside
       width 160px
       display inline-block
-      vertical-align top
-      margin-left 0
-      margin-top 0
-      padding 0 20px 20px 20px
-      font-size 12px
-      box-shadow 0 0 4px black
-      /*background-color white*/
-      position fixed
       top 150px
+      /*vertical-align top
+      margin-left 0
+      margin-top 0*/
+      padding 40px 20px 30px 20px
+      font-size 12px
+      box-shadow 0 0 10px grey
+      position fixed
       background-color rgba(255, 255, 255, 0.9)
 
+    /*TOUT CE QUI TOUCHE A LA NAV*/
+    /*Pour le "nav > .menu", il suffit de mettre un titre dans le fichier jade en ".menu" et de retirer le padding de 40 sur l'aside*/
+    /*nav > .menu
+      margin-top 20px
+      margin-bottom 15px
+      font-family 'Syncopate',  sans-serif
+      font-size 14px
+      color #ec1c56
+      font-weight bold
+      text-align center*/
     nav > a.bouton
       background-color #d1d1d0
       color black
@@ -182,15 +273,8 @@ body
     nav > a.active
       color white
       background-color #ec1c56
-    nav > .menu
-      margin-top 20px
-      margin-bottom 15px
-      text-align center
-      font-family 'Syncopate',  sans-serif
-      font-size 14px
-      color #ec1c56
-      font-weight bold
 
+/*FOOTER*/
 footer
   width 100%
   background rgba(0, 0, 0, 0.80)
